@@ -1,0 +1,42 @@
+canonical_identifier: bkk:krp/KR6u0038/v1
+canonical_location: https://kanripo.org/bkk/KR6u0038/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 法句經疏
+  identifiers:
+    alt_id:
+    - T85n2902
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T85/T85n2902.xml
+    old_id: T85n2902
+  edition:
+    short: bkk
+editions:
+- short: 大
+  label: 大
+  source_xml_id: wit.orig
+- short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6u0038_000.yaml, hash: 'sha256:bd61b6d008216ba07bd4158ea41abdc6f966b6dc710e7cfc912ac3ff113c8ae0'}
+  - {seq: 1, filename: KR6u0038_001.yaml, hash: 'sha256:b61b61edad4bf8963e7e4f42fdb3492fe25536fa193851ec5bd99144c37af619'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6u0038_001.markers.yaml, hash: 'sha256:d8d74148961910d89e17cf21e35e24faf8723ac3ef5ed1153950f23779723ed9'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6u0038_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 13565
+  label: 法句經疏
+  type: juan
+  level: 1
+hash: sha256:8c23077229c459300bdef5949e1adf8667cb39b43bbe826084df3774f6b1e1d1
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e

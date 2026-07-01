@@ -1,0 +1,38 @@
+canonical_identifier: bkk:krp/KR6u0038/T/v1
+canonical_location: https://kanripo.org/bkk/KR6u0038/T/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 法句經疏
+  identifiers:
+    krp: KR6u0038
+    cbeta: T85n2902
+    cbeta_old_id: T85n2902
+    authorityid: CA0004915
+    json_key: T2902
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T85/T85n2902.xml
+    old_id: T85n2902
+  edition:
+    short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6u0038_000-T.yaml, hash: 'sha256:bd61b6d008216ba07bd4158ea41abdc6f966b6dc710e7cfc912ac3ff113c8ae0'}
+  - {seq: 1, filename: KR6u0038_001-T.yaml, hash: 'sha256:b236b8e97ab42da12706a2facd7d222c8b617ace94faee7cd001ddab958c897c'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR6u0038_000-T.markers.yaml, hash: 'sha256:14251a20002fe960451b8f55a37263bdc53159a1daa9409033ad55bb96505215'}
+  - {seq: 1, role: markers, filename: assets/KR6u0038_001-T.markers.yaml, hash: 'sha256:cfc15244376912cf05426a126efb7b9121602328488bb86594650b33a1f4d0b7'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6u0038_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 13565
+  label: 法句經疏
+  type: juan
+  level: 1
+hash: sha256:df2e48c149696495177746916a838692ddbc59520a57f03f6868b08dbea3b311
