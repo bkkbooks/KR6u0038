@@ -22,9 +22,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6u0038_000.yaml, hash: 'sha256:bd61b6d008216ba07bd4158ea41abdc6f966b6dc710e7cfc912ac3ff113c8ae0'}
-  - {seq: 1, filename: KR6u0038_001.yaml, hash: 'sha256:b61b61edad4bf8963e7e4f42fdb3492fe25536fa193851ec5bd99144c37af619'}
+  - {seq: 1, filename: KR6u0038_001.yaml, hash: 'sha256:b236b8e97ab42da12706a2facd7d222c8b617ace94faee7cd001ddab958c897c'}
   markers:
-  - {seq: 1, role: markers, filename: assets/KR6u0038_001.markers.yaml, hash: 'sha256:d8d74148961910d89e17cf21e35e24faf8723ac3ef5ed1153950f23779723ed9'}
+  - {seq: 0, role: markers, filename: assets/KR6u0038_000.markers.yaml, hash: 'sha256:35ebf70d6a6aa1fe790ba6655f118072207c11d817e85045ab4904cf573988f8'}
+  - {seq: 1, role: markers, filename: assets/KR6u0038_001.markers.yaml, hash: 'sha256:31302acc6ec8123e90a12f133451c7f506914b9933659874f3f809036b3a0ab7'}
 table_of_contents:
 - ref:
     seq: 1
@@ -36,7 +37,4 @@ table_of_contents:
   label: 法句經疏
   type: juan
   level: 1
-hash: sha256:8c23077229c459300bdef5949e1adf8667cb39b43bbe826084df3774f6b1e1d1
-mappings:
-- canonical_identifier: bkk:mapping/variant-fold-v1
-  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
+hash: sha256:ca53936e94763981e3ad7f2d652cfa58880d0c7784247a0d229c64265e4b85de
